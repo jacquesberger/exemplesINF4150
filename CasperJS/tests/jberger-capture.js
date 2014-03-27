@@ -6,6 +6,10 @@ casper.test.begin("Vérification du click d'un site de cours avec capture", 1, f
   });
 
   casper.then(function(){
+    this.wait(2000);
+  });
+
+  casper.then(function(){
     this.capture("inf4150.png");
   });
 
