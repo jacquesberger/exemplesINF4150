@@ -1,6 +1,7 @@
 casper.test.begin("Vérification du nombre d'articles", 1, function(test) {
   var articles = [];
 
+  // Cette fonction va chercher la liste des titres d'articles
   function getPosts() {
     var list = document.querySelectorAll(".post-title");
     var result = [];
@@ -10,10 +11,12 @@ casper.test.begin("Vérification du nombre d'articles", 1, function(test) {
     return result;
   }
 
+  // Chargement de la page
   casper.start('http://jberger.org/', function() {
     articles = this.evaluate(getPosts);
   });
 
+  // Vérifier le nombre d'articles
   casper.run(function(){
     test.assertEquals(articles.length, 4);
     test.done();
