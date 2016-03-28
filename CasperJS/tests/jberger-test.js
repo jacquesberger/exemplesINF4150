@@ -18,7 +18,7 @@ casper.test.begin("Vérification du nombre d'articles", 1, function(test) {
 
   // Vérifier le nombre d'articles
   casper.run(function(){
-    test.assertEquals(articles.length, 4);
+    test.assertEquals(articles.length, 5);
     test.done();
   });
 });
