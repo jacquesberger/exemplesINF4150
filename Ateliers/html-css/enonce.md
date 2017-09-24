@@ -20,7 +20,7 @@ Exercice
 --------
 
 Assurez-vous de valider votre document CSS à l'aide du
-[Validateur du W3C pour CSS](???) et de corriger toutes les erreurs
+[Validateur du W3C pour CSS](https://jigsaw.w3.org/css-validator/) et de corriger toutes les erreurs
 et tous les avertissements.
 
 Tentez de reproduire le plus fidèlement possible le formulaire suivant :
