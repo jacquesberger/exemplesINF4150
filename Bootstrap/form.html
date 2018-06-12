@@ -2,45 +2,45 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Plainte</title>
-    <link href="vendor/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
   </head>
   <body>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xs-9 col-xs-offset-3">
+        <div class="col-sm-9 offset-sm-3">
           <h1>Déposer une plainte</h1>
         </div>
       </div>
       <div class="row">
-        <div class="col-xs-12">
-          <form class="form-horizontal" role="form">
-            <div class="form-group">
-              <label class="control-label col-xs-3" for="form-nom">Nom :</label>
-              <div class="col-xs-4">
-                <input type="text" class="form-control input-sm" id="form-nom">
+        <div class="col-sm-12">
+          <form role="form">
+            <div class="form-group row">
+              <label class="col-sm-2 col-form-label offset-sm-1" for="form-nom">Nom :</label>
+              <div class="col-sm-4">
+                <input type="text" class="form-control col-form-label-sm" id="form-nom">
               </div>
             </div>
 
-            <div class="form-group">
-              <label class="control-label col-xs-3" for="form-prenom">Prénom :</label>
-              <div class="col-xs-4">
-                <input type="text" class="form-control input-sm" id="form-prenom">
+            <div class="form-group row">
+              <label class="col-sm-2 col-form-label offset-sm-1" for="form-prenom">Prénom :</label>
+              <div class="col-sm-4">
+                <input type="text" class="form-control col-form-label-sm" id="form-prenom">
               </div>
             </div>
 
-            <div class="form-group">
-              <label class="control-label col-xs-3" for="form-courriel">Courriel :</label>
-              <div class="col-xs-4">
-                <input type="email" class="form-control input-sm" id="form-courriel" placeholder="example@siteweb.com">
+            <div class="form-group row">
+              <label class="col-sm-2 col-form-label offset-sm-1" for="form-courriel">Courriel :</label>
+              <div class="col-sm-4">
+                <input type="email" class="form-control col-form-label-sm" id="form-courriel" placeholder="example@siteweb.com">
               </div>
             </div>
 
-            <div class="form-group">
-              <label class="control-label col-xs-3" for="form-sujet">Sujet de la plainte :</label>
-              <div class="col-xs-4">
-                <select class="form-control" id="form-sujet">
+            <div class="form-group row">
+              <label class="col-sm-2 col-form-label offset-sm-1" for="form-sujet">Sujet de la plainte :</label>
+              <div class="col-sm-4">
+                <select class="form-control col-form-label-sm" id="form-sujet">
                   <option>Produit manquant</option>
                   <option>Mauvais service</option>
                   <option>Produit brisé</option>
@@ -48,21 +48,21 @@
               </div>
             </div>
 
-            <div class="form-group">
-              <label class="control-label col-xs-3" for="form-details">Détails :</label>
-              <div class="col-xs-6">
+            <div class="form-group row">
+              <label class="col-sm-2 col-form-label offset-sm-1" for="form-details">Détails :</label>
+              <div class="col-sm-6">
                 <textarea class="form-control" id="form-details" rows="5"></textarea>
               </div>
             </div>
 
-            <div class="form-group">
-              <div class="col-xs-4 col-xs-offset-3">
+            <div class="form-group row">
+              <div class="col-sm-4 offset-sm-3">
                 <p class="form-control-static">Vous recevrez une réponse d'ici 5 jours ouvrables.</p>
               </div>
             </div>
 
             <div class="form-group">
-              <div class="col-xs-4 col-xs-offset-3">
+              <div class="col-sm-4 offset-sm-3">
                 <button type="submit" class="btn btn-success">Soumettre</button>
               </div>
             </div>
@@ -71,7 +71,8 @@
       </div>
     </div>
 
-    <script src="vendor/js/jquery-1.11.0.min.js"></script>
-    <script src="vendor/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
   </body>
 </html>
